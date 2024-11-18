@@ -1,0 +1,7 @@
+old_map = self.map
+51        self.size = new_size
+52        self.map = [None] * self.size
+53        
+54        for item in old_map:
+55            if item is not None:
+56                self.add(item[0], item[1])
